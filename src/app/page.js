@@ -20,7 +20,6 @@ export default function Home() {
     padding: "1rem",
     boxSizing: "border-box",
     width: "100%",
-    maxWidth: "100vw",
 
   }
   const productItems=products.map((product,index)=>{

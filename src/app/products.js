@@ -27,11 +27,6 @@ const handleMouseOut = () => {
         flexDirection: "column",
         alignSelf:"center",
     }
-    
-    const imgStyle = {
-        maxWidth:"200px",
-        ...scaleStyle
-    }
     const buttonStyle = { 
         backgroundColor: "lightblue",
         border: "none",
@@ -43,7 +38,8 @@ const handleMouseOut = () => {
         
         <div style={divStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} >
             <h1>{name}</h1>
-            <img src={image} style={imgStyle}/>
+            <img src={image} style={{maxWidth:"200px",
+            ...scaleStyle}}/>
             <p>Price: ${price}</p>
             <button style={buttonStyle} onClick={() => addToCart({name,price,image})}>Add To Cart</button>
         </div>
