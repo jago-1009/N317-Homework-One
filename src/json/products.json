@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Montante Flamberge V4",
+        "image":"https://blackfencer.com/313-home_default/like-steel-waster-montante-v2.jpg",
+        "price":122.80
+    },
+    {
+        "name":"Sidesword V4",
+        "image":"https://blackfencer.com/21-home_default/sidesword.jpg",
+        "price":80.40
+    },
+    {
+        "name":"Cavalry Sabre",
+        "image":"https://blackfencer.com/164-home_default/like-steel-waster-saber-v2.jpg",
+        "price":72.38
+    },
+    {
+        "name":"Basket Hilt Broadsword V2",
+        "image":"https://blackfencer.com/138-home_default/basket-hilt-broadsword.jpg",
+        "price":86.66
+    },
+    {
+        "name":"Light Longsword",
+        "image":"https://blackfencer.com/7-home_default/longsword-waster.jpg",
+        "price":70.00
+    }
+]
